@@ -59,8 +59,8 @@ public class Main {
         for (int i = 0; i < a.length; i++) {
             if (a[i] % 2 == 1) {
                 a[i] = a[i] + 1;
-                System.out.println(Arrays.toString(a));
             }
         }
+        System.out.println(Arrays.toString(a));
     }
 }
